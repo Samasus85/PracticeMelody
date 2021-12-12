@@ -18,7 +18,7 @@ body {
     margin: auto;
 }
 .navigate {
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid rgb(77, 240, 150);
     background-color: #635854;
 }
 .logo > img {
@@ -62,19 +62,21 @@ a {
 .image {
     padding-top: 50px;
 }
-.img path {
+.home-image path {
     opacity: 0;
 }
-.img path:hover {
+.home-image path:hover {
     opacity: 1;
     cursor: pointer;
 }
-
+path.current-floor {
+    opacity: 1;
+}
 .main-container {
     display: flex;
 }
 
-.counter {
+.count {
     flex-grow: 1;
     text-align: center;
     display: flex;
@@ -98,7 +100,7 @@ a {
 .counter-down {
     transform: rotateX(180deg);
 }
-.counter {
+.count {
     font-family: "Bebas Neue", sans-serif;
     color: #635854;
     font-weight: normal;
@@ -114,7 +116,7 @@ a {
     padding: 16px 36px;
     color: #fff;
     border: none;
-    background-color: #3596f5;
+    background-color: #6ff586;
     border-radius: 6px;
     cursor: pointer;
 }
